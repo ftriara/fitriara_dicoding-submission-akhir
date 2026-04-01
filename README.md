@@ -2,15 +2,34 @@
 
 ## Business Understanding
 
-Jaya Jaya Institut merupakan salah satu institusi pendidikan perguruan yang telah berdiri sejak tahun 2000. Hingga saat ini ia telah mencetak banyak lulusan dengan reputasi yang sangat baik. Akan tetapi, terdapat banyak juga siswa yang tidak menyelesaikan pendidikannya alias dropout.
+Jaya Jaya Institut merupakan salah satu institusi pendidikan tinggi yang telah berdiri sejak tahun 2000 dan telah menghasilkan banyak lulusan dengan reputasi yang baik. Namun demikian, institusi ini masih menghadapi tantangan serius berupa tingginya jumlah mahasiswa yang tidak menyelesaikan studi (dropout).
 
-Jumlah dropout yang tinggi ini tentunya menjadi salah satu masalah yang besar untuk sebuah institusi pendidikan. Oleh karena itu, Jaya Jaya Institut ingin mendeteksi secepat mungkin siswa yang mungkin akan melakukan dropout sehingga dapat diberi bimbingan khusus.
+Fenomena dropout ini menjadi perhatian utama karena tidak hanya berdampak pada mahasiswa secara individu, tetapi juga mempengaruhi kinerja dan keberlanjutan institusi secara keseluruhan.
 
 ### Permasalahan Bisnis
 
-- Faktor apa yang paling mempengaruhi status kelulusan mahasiswa?
-- Profil mahasiswa seperti apa yang paling berisiko dropout?
-- Action apa yang dapat dilakukan institusi untuk mengurangi angka dropout?
+Jaya Jaya Institut menghadapi permasalahan berupa **tingginya angka mahasiswa dropout**, yang mengindikasikan adanya kendala dalam aspek akademik, finansial, maupun keterlibatan mahasiswa selama masa studi.
+
+Kondisi ini menimbulkan berbagai dampak negatif bagi institusi, antara lain:
+
+- **Penurunan reputasi institusi**, karena rendahnya tingkat kelulusan dapat mempengaruhi persepsi publik dan calon mahasiswa.
+- **Kerugian finansial**, akibat berkurangnya pendapatan dari mahasiswa yang tidak menyelesaikan pendidikan.
+- **Inefisiensi operasional**, karena sumber daya pendidikan tidak dimanfaatkan secara optimal.
+- **Menurunnya daya saing institusi**, terutama dalam persaingan antar perguruan tinggi.
+
+Selain itu, institusi saat ini belum memiliki sistem yang mampu **mengidentifikasi mahasiswa berisiko dropout secara dini**, sehingga intervensi yang dilakukan seringkali terlambat dan kurang efektif.
+
+Apabila permasalahan ini terus berlanjut, maka dalam jangka panjang institusi berisiko mengalami:
+
+- Penurunan jumlah mahasiswa aktif
+- Penurunan tingkat kelulusan (graduation rate)
+- Menurunnya kepercayaan stakeholder (orang tua, pemerintah, dan industri)
+
+Oleh karena itu, diperlukan solusi berbasis data yang mampu:
+
+- Mengidentifikasi faktor utama penyebab dropout
+- Mengelompokkan mahasiswa berdasarkan tingkat risiko
+- Mendukung pengambilan keputusan untuk intervensi yang lebih cepat dan tepat sasaran
 
 ### Cakupan Proyek
 
@@ -108,15 +127,15 @@ streamlit run app.py
 #### Performa Model
 | Model | Accuracy | F1-Weighted | F1-Macro |
 |-------|----------|-------------|---------|
-| Random Forest | 78.08% | 76.80% | 70.59% |
-| **XGBoost (Final)** | **78.19%** | **77.59%** | **72.04%** |
+| Random Forest (Final) | 91.60% | 91.49% | 90.97% |
+| XGBoost | 90.36% | 90.26% | 89.68% |
 
 #### Top 5 Fitur Paling Penting
-1. `Approval_rate` — Rasio SKS yang disetujui (13.58%)
-2. `Curricular_units_2nd_sem_approved` — SKS semester 2 yang disetujui (10.19%)
-3. `Tuition_fees_up_to_date` — Pembayaran kuliah (6.89%)
-4. `Avg_approved` — Rerata SKS yang disetujui (5.09%)
-5. `Financial_risk` — Risiko finansial (4.48%)
+1. `Approval_rate` — Rasio SKS yang disetujui (20.35%)
+2. `Avg_approved` — Rerata SKS yang disetujui (13.29%)
+3. `Curricular_units_2nd_sem_approved` — SKS semester 2 yang disetujui (11.48%)
+4. `Curricular_units_1st_sem_approved` — SKS semester 1 yang disetujui (7.70%)
+5. `Avg_grade` — Rerata nilai (5.54%)
 
 ---
 
