@@ -28,7 +28,7 @@ Apabila permasalahan ini terus berlanjut, maka dalam jangka panjang institusi be
 Oleh karena itu, diperlukan solusi berbasis data yang mampu:
 
 - Mengidentifikasi faktor utama penyebab dropout
-- Mengelompokkan mahasiswa berdasarkan tingkat risiko
+- Memprediksi risiko dropout mahasiswa berdasarkan faktor-faktornya
 - Mendukung pengambilan keputusan untuk intervensi yang lebih cepat dan tepat sasaran
 
 ### Cakupan Proyek
