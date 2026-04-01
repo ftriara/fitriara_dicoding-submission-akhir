@@ -52,6 +52,7 @@ pip install -r requirements.txt
 ## Business Dashboard
 
 Dashboard dibuat menggunakan Looker Studio untuk memvisualisasikan faktor-faktor yang mempengaruhi status kelulusan mahasiswa secara interaktif.
+Link Dashboard: https://lookerstudio.google.com/reporting/23748212-cf41-446f-8ad4-ac32d4cd2ede
 
 ### Bagian-Bagian Dashboard
 - Filter
