@@ -51,8 +51,8 @@ pip install -r requirements.txt
 
 ## Business Dashboard
 
-Dashboard dibuat menggunakan Looker Studio untuk memvisualisasikan faktor-faktor yang mempengaruhi status kelulusan mahasiswa secara interaktif.
-Link Dashboard: https://lookerstudio.google.com/reporting/23748212-cf41-446f-8ad4-ac32d4cd2ede
+- Dashboard dibuat menggunakan Looker Studio untuk memvisualisasikan faktor-faktor yang mempengaruhi status kelulusan mahasiswa secara interaktif.
+- Link Dashboard: https://lookerstudio.google.com/reporting/23748212-cf41-446f-8ad4-ac32d4cd2ede
 
 ### Bagian-Bagian Dashboard
 - Filter
@@ -80,6 +80,7 @@ Link Dashboard: https://lookerstudio.google.com/reporting/23748212-cf41-446f-8ad
     
 
 ## Menjalankan Sistem Machine Learning
+Link Prototype: https://fitriara-dicoding-submission-akhir.streamlit.app/
 
 #### 1. Jalankan Notebook Analisis
 ```bash
@@ -127,10 +128,9 @@ streamlit run app.py
 4. **Rasio SKS yang disetujui** — semakin rendah rasio SKS yang disetujui maka risiko dropout semakin tinggi
 5. **Tekanan finansial** - financial risk tinggi berkorelasi dengan peningkatan dropout.
 6. **Pembayaran Kuliah** adalah prediktor paling kuat: mahasiswa yang menunggak memiliki dropout rate 80%
-7. **Program malam** memiliki dropout rate lebih tinggi daripada program siang
-8. **Penerima beasiswa** secara signifikan lebih jarang dropout, menunjukkan efektivitas bantuan finansial
-9. **Mahasiswa berusia 25+** memiliki risiko dropout yang lebih tinggi, mengindikasikan kebutuhan layanan khusus
-10. **Segmentasi risiko** menunjukkan bahwa kelompok mahasiswa dengan risiko tinggi perlu mendapatkan perhatian khusus karena memiliki probabilitas dropout yang jauh lebih besar dibandingkan kelompok lainnya
+7. **Penerima beasiswa** secara signifikan lebih jarang dropout, menunjukkan efektivitas bantuan finansial
+8. **Mahasiswa berusia 25+** memiliki risiko dropout yang lebih tinggi, mengindikasikan kebutuhan layanan khusus
+9. **Segmentasi risiko** menunjukkan bahwa kelompok mahasiswa dengan risiko tinggi perlu mendapatkan perhatian khusus karena memiliki probabilitas dropout yang jauh lebih besar dibandingkan kelompok lainnya
 
 ---
 
